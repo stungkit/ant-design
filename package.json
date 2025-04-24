@@ -143,7 +143,7 @@
     "querystring": "^0.2.0",
     "rc-queue-anim": "^1.6.6",
     "rc-scroll-anim": "^2.5.5",
-    "rc-tween-one": "^2.2.12",
+    "rc-tween-one": "^3.0.6",
     "react": "^16.5.2",
     "react-color": "^2.14.1",
     "react-copy-to-clipboard": "^5.0.1",
