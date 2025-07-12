@@ -15,6 +15,26 @@ tag: vVERSION
 
 ---
 
+## 5.26.4
+
+`2025-07-07`
+
+- 🐞 修复 Radio.Group 未从 Form 继承 `name` 属性的问题。[#54206](https://github.com/ant-design/ant-design/pull/54206) [@aojunhao123](https://github.com/aojunhao123)
+- 🐞 修复 Select 清除图标在 Safari 中闪动的问题。[#54237](https://github.com/ant-design/ant-design/pull/54237) [@afc163](https://github.com/afc163)
+- 💄 修复 Cascader 选中后的 `font-weight` 设置值。[#54251](https://github.com/ant-design/ant-design/pull/54251) [@li-jia-nan](https://github.com/li-jia-nan)
+- ⚡️ 优化 Table 数据展开时的拷贝逻辑以提升性能。[#54288](https://github.com/ant-design/ant-design/pull/54288) [@zhouxinyong](https://github.com/zhouxinyong)
+
+## 5.26.3
+
+`2025-06-30`
+
+- 🐞 修复 InputNumber 在 `variant=underlined` 与 `suffix` 配合时，样式会出现圆角的问题。[#54228](https://github.com/ant-design/ant-design/pull/54228) [@kiner-tang](https://github.com/kiner-tang)
+- 🐞 修复 FloatButton.Group 总是错误的抛出 `shape` 配置警告信息。[#54215](https://github.com/ant-design/ant-design/pull/54215) [@deathemperor](https://github.com/deathemperor)
+- 💄 调整 Typography 标题使用 `fontWeightStrong` token。[#54185](https://github.com/ant-design/ant-design/pull/54185) [@p-a](https://github.com/p-a)
+- 🐞 修复 Tree.DirectoryTree 拖拽样式指示器位置不正确的问题。[#54183](https://github.com/ant-design/ant-design/pull/54183) [@uioonm](https://github.com/uioonm)
+- TypeScript
+  - 🤖 清理 Menu 内部使用的属性定义与官网保持一致，这些属性并不会真的起效。[#54189](https://github.com/ant-design/ant-design/pull/54189) [@wanpan11](https://github.com/wanpan11)
+
 ## 5.26.2
 
 `2025-06-24`
